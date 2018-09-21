@@ -7,23 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Ivan Zeng - SDE</title>
-    <!--Favico, Colors: Light Blue: #85cce4, Dark Blue: 0080ff-->
-    <link rel="shortcut icon" href="favicon.ico"/ type = "image/ico">
+    <!--Favico, Colors: Light Blue: #85cce4, Dark Blue: #0080ff-->
+    <link rel="shortcut icon" href="favicon.ico" type = "image/ico">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Our Custom CSS -->
+    <!-- My Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!--Social Icon CSS-->
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-
+    
+    
     <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    
 
 </head>
 
 <body>
-
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
@@ -83,29 +87,48 @@
                     </div>
                 </div>
             </nav>
-
-            <h1 id="about">About</h1>
+            
+            <!--<div class="">-->
+            <div id = "about" class = "mainParas">
+                
+            <h1 id="myName">Ivan <span id="lname">Zeng</span></h1>
+                <a href = "https://github.com/yz21527" class="socialLinks" id="linkedin"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                
+                <a href = "https://www.linkedin.com/in/ivan-zeng-43b935139/" class="socialLinks" id="github"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+                <span id="emailIcon"><i  class="fas fa-envelope fa-2x" aria-hidden="true"></i></span>  
+            <div class="line"></div>
+                
+            <h1>About</h1>
             <p>I'm looking for a professional position in software engineering where I can apply my problem-solving skills, technical expertise, and teamwork ability.</p>
+            </div>
+            <div class="line"></div>
+
+            <div id = "projects" class = "mainParas">
+            <h1>Projects</h1>
+            <p>I'm looking for a professional position in software engineering where I can apply my problem-solving skills, technical expertise, and teamwork ability.</p>
+            </div>
 
             <div class="line"></div>
 
-            <h1 id="projects">Projects</h1>
-            <p></p>
+            <div id = "education" class = "mainParas">
+            <h1>Education</h1>
+            <p>I'm looking for a professional position in software engineering where I can apply my problem-solving skills, technical expertise, and teamwork ability.</p>
+            </div>
 
             <div class="line"></div>
 
-            <h1 id="education">Education</h1>
-            <p></p>
-
-            <div class="line"></div>
-
-            <h1 id="skills">Skills</h1>
-            <p></p>
+            <div id = "skills" class = "mainParas">
+            <h1>Skills</h1>
+            <p>I'm looking for a professional position in software engineering where I can apply my problem-solving skills, technical expertise, and teamwork ability.</p>
+            </div>
         </div>
     </div>
-
+    
+    
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--My custom js file-->
+    <script type="text/javascript" src="js/scripts.js"></script>
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
@@ -113,19 +136,6 @@
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
-
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar, #content').toggleClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-    </script>
 </body>
 
 </html>
