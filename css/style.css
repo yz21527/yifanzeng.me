@@ -14,7 +14,7 @@
 }
 
 .resumeSec{
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 100px 0px;
 }
 
 .resumeSec h1{
@@ -47,13 +47,12 @@
 
 .timespan{
     font-size: 1.5rem;
-    float: right;
-    
+    margin: 50px 0px 0px 0px;
 
 }
 
 .schools{
-
+    margin: 0px 0px 50px 0px;
 }
 
 body {
@@ -127,6 +126,10 @@ a:focus {
     transition: all 0.3s;
 }
 
+.sidebar-header{
+    margin: 40px 0px 40px 0px;
+}
+
 #sidebar.active {
     margin-left: -250px;
 }
@@ -189,6 +192,30 @@ ul.CTAs a {
     margin-bottom: 5px;
 }
 
+/* ---------------------------------------------------
+    NAVBAR STYLE
+----------------------------------------------------- */
+
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 95%;
+    display: none;
+}
+
+#sidebarCollapse{
+    
+}
+
+#navbarbtn{
+    background-color: #85cce4;
+    border: none;
+    margin-right: 20px;
+}
+
+#backtotop{
+    left:50%;
+}
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -205,7 +232,7 @@ ul.CTAs a {
 }
 
 #content.active {
-    width: 100%;
+    margin-left: calc(50%);
 }
 
 
@@ -229,5 +256,14 @@ ul.CTAs a {
     }
     #sidebarCollapse span {
         display: none;
+    }
+    #navbar{
+        display: inline;
+    }
+}
+
+@media (max-width: 510px) {
+    #myName{
+        font-size:45pt;
     }
 }

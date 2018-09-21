@@ -33,7 +33,7 @@
         <nav id="sidebar">
             <div class="sidebar-header">
                 <h3 align="middle">Ivan Zeng</h3>
-                <img src="Images/avatar.jpg" alt="Responsive image" class="img-fluid rounded-circle">
+                <a href="#myName"><img src="Images/avatar.jpg" alt="Responsive image" class="img-fluid rounded-circle"></a>
                 
             </div>
             
@@ -57,15 +57,18 @@
 
         <!-- Page Content  -->
         <div id="content">
-
+            <div id = "navbar">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <!--<button type="button" id="sidebarCollapse" class="btn btn-info">
                         <i class="fas fa-align-left"></i>
                         <span>Toggle Sidebar</span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    </button>-->
+                    <!--Back to the top-->
+                    <a href="#content" id="backtotop"><i class="fas fa-chevron-up fa-2x"></i></a>
+                    
+                    <button id = "navbarbtn" class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
 
@@ -87,7 +90,7 @@
                     </div>
                 </div>
             </nav>
-            
+            </div>
             <!--start of main paragraphs-->
             <!--section 1: topper-->
             <div id = "topper" class = "resumeSec">
@@ -119,9 +122,10 @@
 
             <div class="line"></div>
             <!--section4: education-->
+            <div id = "education" class = "resumeSec">
             <h1>Education</h1>
             <div class = "timespan">AUG 2018 - CURRENT</div>
-            <div id = "education" class = "resumeSec">
+            
             <div class = "schools">
                 <h3>NEW YORK UNIVERSITY</h3>
             <p>MASTER OF SICENCE IN COMPUTER SCIENCE</p>
