@@ -75,52 +75,67 @@
                                 <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <a class="nav-link" href="#projects">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Education</a>
+                                <a class="nav-link" href="#education">Education</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Skills</a>
+                                <a class="nav-link" href="#skills">Skills</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
             
-            <!--<div class="">-->
-            <div id = "about" class = "mainParas">
+            <!--start of main paragraphs-->
+            <!--section 1: topper-->
+            <div id = "topper" class = "resumeSec">
                 
             <h1 id="myName">Ivan <span id="lname">Zeng</span></h1>
                 <a href = "https://github.com/yz21527" class="socialLinks" id="github"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
                 
                 <a href = "https://www.linkedin.com/in/ivan-zeng-43b935139/" class="socialLinks" id="linkedin"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                <span id="emailIcon"><i  class="fas fa-envelope fa-2x" aria-hidden="true"></i></span>  
+                <span id="emailIcon" class="socialLinks"><i  class="fas fa-envelope fa-2x" aria-hidden="true"></i></span>  
+            </div>
             <div class="line"></div>
-                
+            
+            <!--section 2: about-->
+            <div id="about" class= "resumeSec">
             <h1>About</h1>
             <p>I'm currently a CS graduate student at NYU Tandon. I'm fluent in java and familiar with web development using html, css, and javascript. Besides, I also have strong interests in android and ios development. I'm actively seeking a job as software engineer where I can apply my problem-solving skills, technical expertise, and teamwork ability. </p>
             </div>
+            
             <div class="line"></div>
-
-            <div id = "projects" class = "mainParas">
+            
+            <!--section3: projects-->
+            
+            <div id = "projects" class = "resumeSec">
             <h1>Projects</h1>
-                <p><a href="https://www.workoutplanneronline.com">Workout Planner</a></p>
+            <div class="timespan">IN PROGRESS</div>
+                <h3><a href="https://www.workoutplanneronline.com">Workout Planner</a></h3>
+            
             </div>
 
             <div class="line"></div>
-
-            <div id = "education" class = "mainParas">
+            <!--section4: education-->
             <h1>Education</h1>
-            <p>M.S. in Computer Sience, New York University</p>
-            <p>August 2018 - current</p>
-            <p>B.S. in Computer Sience, University of Georgia</p>
-                <p>August 2018 - May 2018</p>
+            <div class = "timespan">AUG 2018 - CURRENT</div>
+            <div id = "education" class = "resumeSec">
+            <div class = "schools">
+                <h3>NEW YORK UNIVERSITY</h3>
+            <p>MASTER OF SICENCE IN COMPUTER SCIENCE</p>
             </div>
-
+            
+                <div class="timespan">AUG 2014 - MAY 2018</div>
+            <div class = "schools">
+            <h3>UNIVERSITY OF GEORGIA</h3>
+                <p>BECHALOR OF SICENCE IN COMPUTER SCIENCE</p>
+            </div>
             <div class="line"></div>
-
-            <div id = "skills" class = "mainParas">
+            </div>
+            <!--section5: skills-->
+            <div id = "skills" class = "resumeSec">
             <h1>Skills</h1>
             <p class="devicons">
             
@@ -135,8 +150,10 @@
                 
             </p>
             </div>
-        </div>
     </div>
+        <!--End of Content-->
+</div>
+    <!--End of Wrapper-->
     
     
     <!-- jQuery CDN - Slim version (=without AJAX) -->

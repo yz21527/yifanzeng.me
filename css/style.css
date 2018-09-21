@@ -4,8 +4,22 @@
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-.mainParas{
+#myName{
+    font-size: 60pt;
+    color:#0080ff
+}
 
+#lname{
+    color:#85cce4;
+}
+
+.resumeSec{
+    margin: 0px 0px 50px 0px;
+}
+
+.resumeSec h1{
+    color: #0080ff;
+    margin: 50px 0px 50px 0px;
 }
 
 
@@ -13,6 +27,10 @@
     width: 40px;
     margin-right:15px;
     height: 40px;
+}
+
+#emailIcon{
+    margin-left:5px;
 }
 
 #linkedin:hover{
@@ -27,13 +45,15 @@
 
 
 
-#myName{
-    font-size: 60pt;
-    color:#0080ff
+.timespan{
+    font-size: 1.5rem;
+    float: right;
+    
+
 }
 
-#lname{
-    color:#85cce4;
+.schools{
+
 }
 
 body {
@@ -42,13 +62,12 @@ body {
 }
 
 p { 
-    margin:100px 100px 0px 0px;
     height: auto;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: black;
 }
 
 a,
@@ -82,8 +101,10 @@ a:focus {
 }
 
 .devicons{
-    font-size: 2rem;
+    font-size: 5rem;
 }
+
+
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
@@ -186,6 +207,8 @@ ul.CTAs a {
 #content.active {
     width: 100%;
 }
+
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES
